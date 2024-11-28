@@ -14,7 +14,7 @@ namespace BådLibrary
 
         public Admin() 
         {
-            
+            Console.WriteLine("fdsfd");  
         }
     }
 }
