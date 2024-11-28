@@ -12,9 +12,10 @@ namespace BådLibrary
         public int Id { get; set; }
         public string TelefonNummer { get; set; }
 
-        public Admin() 
+        public Admin(int id, string name, string telefonNummer, string address, string email) : base(name, address, email)
         {
-            Console.WriteLine("fdsfd");  
+            id = Id;
+            telefonNummer = TelefonNummer;
         }
     }
 }
