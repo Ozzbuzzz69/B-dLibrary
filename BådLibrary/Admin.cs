@@ -12,6 +12,9 @@ namespace BådLibrary
         public int Id { get; set; }
         public string TelefonNummer { get; set; }
 
-        public Admin() { }
+        public Admin() 
+        {
+            
+        }
     }
 }
